@@ -1,0 +1,16 @@
+def replay(adb):
+	adb.tap(1720, 1000)
+def go_to_home(adb):
+	adb.tap(1961, 40)
+def go_to_battle(adb):
+	adb.tap(1943, 928)
+def go_to_event_battle(adb):
+	adb.tap(1900, 345)
+def select_daily_event(adb):
+	adb.tap(313, 267)
+def select_unit(adb):
+	adb.tap(1935, 935)
+def sortie(adb):
+	adb.tap(1930, 947)
+def stage_clear_ok(adb):
+	adb.tap(1958, 996)
