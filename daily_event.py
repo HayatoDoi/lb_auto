@@ -26,7 +26,7 @@ def go_to_daily_event(adb):
 def battle2(adb):
 	sleep(3)
 	last_bullet.select_unit(adb) # ユニット選択
-	sleep(30)## 暫定的
+	sleep(3)
 	last_bullet.sortie(adb) # 出撃
 	sleep(120)
 	last_bullet.replay(adb) # 再戦
