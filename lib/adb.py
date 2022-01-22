@@ -13,7 +13,7 @@ class Adb():
 		self.disconnect()
 	def __exec_cmd(self, cmd):
 		error_count = 0
-		result = subprocess.run(cmd)
+		result = subprocess.run(cmd, shell=True)
 		if result.returncode != 0:
 			error_count += 1
 			if error_count >= MAX_ERROR_COUNT:
