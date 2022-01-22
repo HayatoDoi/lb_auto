@@ -1,5 +1,9 @@
 def replay(adb):
 	adb.tap(1720, 1000)
+def charge_ap_at_continue_window(adb):
+	adb.tap(1350, 980)
+def add_ramune_at_continue_window(adb):
+	adb.tap(1430, 640)
 def go_to_home(adb):
 	adb.tap(1961, 40)
 def go_to_battle(adb):
